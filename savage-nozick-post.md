@@ -1,20 +1,22 @@
 It's pretty easy to do quantum mechanics every day never think about interpretations.
+For example, using quantum chemistry software.
+A molecule is input into the software as a file where each row is the element and xyz coordinates of an atom.
+This represents a molecule floating in empty space, which is fine for calculations related to a gas.
+Often you want to compare to measurements in a solvent, but this is usually handled as an "implicit solvent", meaning we don't include the solvent atoms in the file, jut appropriately adjust the dielectric constant.
+You can do some impressive calculations with modern software.
+Schrödinger could calculate the hydrogen atom spectrum, but now you can compute which frequencies of light will be absorbed by, for example, dyes used in clothes or as food colorings.
 
-I think it will help if I tell you about calculation that modern software can do, which I think is pretty impressive.
-Given a molecular structure, what is its color?
-<!-- Can cite this -->
-Quantum chemistry can get pretty good predictions of the absorption wavelengths of real dye molecules.
-The input is a file where each row is the element and xyz coordinates of an atom.
-This represents the molecule floating in empty space.
-The real measurements are in a solvent, but this is usually handled as an "implicit solvent", meaning we don't include the solvent atoms in the file, jut appropriately adjust the dielectric constant.
-
-So suppose you're used to working with explicit atom-by-atom models, and think of quantum mechanics as a program that operates on such models, and then you consider perhaps the basic question in interpretations: after a measurement, what's the joint quantum state of the measured atom and the experimenter?
-It's more than just that you don't have an atom by atom description of the experimenter, more than just that this is way too many atoms for the software to handle.
-Yeah, I don't usually consider the experimenter, or the measurement device, but I also don't have a sense that I'm specifically leaving them out.
-I mean, i don't even include the solvent.
+So, I'm used to working with explicit atom-by-atom models, and tend to think of quantum mechanics as a program that operates on such models.
+So it's only when reading blog posts, not when doing quantum mechanics, that I consider the fundamental object of quantum interpretations, the joint quantum state of the molecule and the experimenter.
+It's more than just that I don't have an atom by atom description of the experimenter, more than just that a human body has too many atoms for the software to handle.
+I mean, forget the experimenter, I don't include the measurement device.
+One way to frame it (though not really what's done computationally) is to check if the energy of the molecule goes up in an oscillating electric field; we can then indirectly infer that less light energy is making it to some "off-screen" measuring device.
+But, look, I don't even include the solvent.
+So I don't have a sense that I'm avoiding the consideration of the measurement.
+It isn't a Cartesian boundary between mind and matter, it's a boundary between an explicit model and the rest of the world.
 
 I think you can also use what I'll call "classical decision theory", for which my reference is Savage, and never worry about Newcomb's problem, for similar reasons.
-Savage's book only makes sense to me when I read it from the perspective I've developed in explicit modeling.
+Savage's book, as philosophical as it is, only makes sense to me when I read it from the perspective I've developed for explicit modeling.
 In his theory, an "act" is a map from a state of the world to a consequence.
 Savage explains that by "the world", he means "the object of interest".
 For example, in the decision problem of what to do with an egg that may or may not be rotten, the world is the egg.
@@ -32,9 +34,3 @@ After the dozen eggs, he does consider that the state of the world may be the "e
 It's true that if you want to actually derive consequences from explicit models, and not just say "consider some description of the whole world" without writing one down, then you're used to simplifying to the bare minimum.
 Perhaps that makes it easy to miss that including yourself in the model introduces special problems, since for the sake of simplification you don't get anywhere near including that much.
 
-<!-- Can do better on the EY and Everett qquotes -->
-In quantum mechanics, Everett addresses "the quantum mechanics that is internal to an isolated system", and in decision theory, Yudkowsky wants to consider a "naturalistic" as opposed to "Cartesian" model.
-
-In my work in "virtual screening", for which I do quantum mechanical simulations of many molecules to decide which one to synthesize, the model used for the decision problem is a quantum mechanical model.
-
-Savage thinks of acts as maps from states of the world to consequences.
