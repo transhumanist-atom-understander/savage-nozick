@@ -2,9 +2,9 @@ It's pretty easy to do quantum mechanics every day never think about interpretat
 For example, using quantum chemistry software.
 A molecule is input into the software as a file where each row is the element and xyz coordinates of an atom.
 This represents a molecule floating in empty space, which is fine for calculations related to a gas.
-Often you want to compare to measurements in a solvent, but this is usually handled as an "implicit solvent", meaning we don't include the solvent atoms in the file, jut appropriately adjust the dielectric constant.
 You can do some impressive calculations with modern software.
-Schrödinger could calculate the hydrogen atom spectrum, but now you can compute which frequencies of light will be absorbed by, for example, dyes used in clothes or as food colorings.
+Schrödinger could calculate the hydrogen atom spectrum, but with a computer you can compute which frequencies of light will be absorbed by, for example, dyes used in clothes or as food colorings.
+Of course for a dye you don't want the color of a gas but of a solution in water or another solvent, but this can be approximated without explicitly including the solvent molecules just by using a different dielectric constant.
 
 So, I'm used to working with explicit atom-by-atom models, and tend to think of quantum mechanics as a program that operates on such models.
 So it's only when reading blog posts, not when doing quantum mechanics, that I consider the fundamental object of quantum interpretations, the joint quantum state of the molecule and the experimenter.
