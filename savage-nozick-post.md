@@ -10,7 +10,7 @@ So, I'm used to working with explicit atom-by-atom models, and tend to think of 
 So it's only when reading blog posts, not when doing quantum mechanics, that I consider the fundamental object of quantum interpretations, the joint quantum state of the molecule and the experimenter.
 It's more than just that I don't have an atom by atom description of the experimenter, more than just that a human body has too many atoms for the software to handle.
 I mean, forget the experimenter, I don't include the measurement device.
-If you're predicting absorption of a particular frequency of light, one way to frame it (though not really what's done computationally) is to check if the energy of the molecule goes up in an oscillating electric field; we can then indirectly infer that less light energy is making it to some "off-screen" device.
+If you're predicting absorption of a particular frequency of light, one way to frame it is to check if the energy of the molecule goes up in an oscillating electric field; we can then indirectly infer that less light energy is making it to some "off-screen" device.
 But, look, I don't even include the solvent.
 So what I feel is not a Cartesian boundary between mind and matter, but a boundary around what's explicitly modeled.
 
