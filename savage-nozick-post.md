@@ -52,7 +52,7 @@ Perhaps that makes it easy to miss that including yourself in the model introduc
 ## The appeal of the grand systems perspective
 
 In [his original paper on what we now call the "many-worlds" interpretation](https://doi.org/10.1103/RevModPhys.29.454), Everett motivated it with quantum cosmology, since there's nowhere outside the universe for a Copenhagen-style observer to stand.
-Eliezer Yudkowsky said something similar to motivate timeless decision theory:
+[Eliezer Yudkowsky said something similar to motivate timeless decision theory](https://intelligence.org/files/TDT.pdf):
 
 > I hold it a virtue of any decision theory that it should be compatible with a grand-system view, rather than _intrinsically_ separating the universe into agent and outside. All else being equal, I prefer a representation which is continuous over the grand universe and marks no special boundary where the observer is located; as opposed to a representation which solidifies the Cartesian boundary between an observer-decider homunculus and the environment.
 
