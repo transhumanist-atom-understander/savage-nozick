@@ -1,4 +1,4 @@
-# Newcomb's problem from the grand system and petty system view
+# Newcomb's problem from the grand-system and petty-system views
 
 It's pretty easy to do quantum mechanics every day and never think about interpretations.
 For example, using quantum chemistry software.
