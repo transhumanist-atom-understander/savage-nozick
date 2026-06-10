@@ -42,4 +42,11 @@ Perhaps that makes it easy to miss that including yourself in the model introduc
 
 ## The appeal of the grand systems perspective
 
+In his original paper on what we now call the "many-worlds" interpretation, Everett motivated it with quantum cosmology, since there's nowhere outside the universe for a Copenhagen-style observer to stand.
+Eliezer Yudkowsky said something similar to motivate timeless decision theory:
+
+> I hold it a virtue of any decision theory that it should be compatible with a grand-system view, rather than _intrinsically_ separating the universe into agent and outside. All else being equal, I prefer a representation which is continuous over the grand universe and marks no special boundary where the observer is located; as opposed to a representation which solidifies the Cartesian boundary between an observer-decider homunculus and the environment.
+
+As I said, you don't feel the Cartesian boundary in practice when working with explicit models, since the model boundary is so much itghter.
+
 ## Explicit models for Newcomblike problems
