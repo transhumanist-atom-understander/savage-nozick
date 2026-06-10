@@ -6,7 +6,7 @@ You input a molecule as a file with a row for each atom, with the atom's element
 Just the atoms in the molecule, which represents a molecule floating in empty space, which is fine for gas phase properties.
 
 You can do some impressive calculations with modern software.
-Schrödinger could calculate the hydrogen atom spectrum, but with a computer you can compute which frequencies of light will be absorbed by, for example, dyes used in clothes or as food colorings.
+Erwin Schrödinger could calculate the hydrogen atom spectrum, but with a computer you can compute which frequencies of light will be absorbed by, for example, organic pigments used to dye clothes or as food colorings.
 Of course for a dye you don't want the color of a gas but of a solution in water or another solvent, but this can be approximated without explicitly including the solvent molecules by just adjusting the vacuum permittivity with the solvent's dielectric constant.
 
 So, I'm used to working with explicit atom-by-atom models, and thinking of quantum mechanics as a program that operates on such models.
@@ -23,7 +23,7 @@ So what I feel is not a Cartesian boundary between mind and matter, but a much t
 
 I think you can also use what I'll call "classical decision theory", for which my reference is Savage, and never worry about Newcomb's problem, for similar reasons.
 Savage's book, as philosophical as it is, only makes sense to me when I read it from the perspective I've developed for explicit modeling.
-In his theory, an "act" is a map from a state of the world to a consequence.
+In his theory, an "act" is a function that maps from a state of the world to a consequence.
 Savage explains that by "the world", he means "the object of interest".
 For example, in the decision problem of what to do with an egg that may or may not be rotten, the world is the egg.
 Readers concerned that this may be too narrow a conception of "the world" will find that he goes on to consider: "if the person is interested in the only brown egg in a dozen, should that egg or the whole dozen be taken as the world?"
@@ -47,6 +47,6 @@ Eliezer Yudkowsky said something similar to motivate timeless decision theory:
 
 > I hold it a virtue of any decision theory that it should be compatible with a grand-system view, rather than _intrinsically_ separating the universe into agent and outside. All else being equal, I prefer a representation which is continuous over the grand universe and marks no special boundary where the observer is located; as opposed to a representation which solidifies the Cartesian boundary between an observer-decider homunculus and the environment.
 
-As I said, you don't feel the Cartesian boundary in practice when working with explicit models, since the model boundary is so much tighter.
+But as I said, you don't feel the Cartesian boundary in practice when working with explicit models, since the model boundary is so much tighter.
 
 ## Explicit models for Newcomblike problems
