@@ -21,9 +21,12 @@ So what I feel is not a Cartesian boundary between mind and matter, but a much t
 
 ## Decision theory when you're used to explicit models
 
-I think you can also use what I'll call "classical decision theory", for which my reference is Savage, and never worry about Newcomb's problem, for similar reasons.
-[Savage's book](https://archive.org/details/foundationsofsta0000sava/page/n1/mode/1up), as philosophical as it is, only makes sense to me when I read it from the perspective I've developed for explicit modeling.
-In his theory, an "act" is a function that maps from a state of the world to a consequence.
+I think you could use classical decision theory every day and never wonder about the critical issue in Newcomb's problem: the dependence of the state of the world on the person deciding.
+
+My reference for what I'm calling "classical decision theory" is [Savage's book](https://archive.org/details/foundationsofsta0000sava/page/n1/mode/1up).
+And as philosophical as that book is, it only makes sense to me when I read it from the perspective I've developed for explicit modeling.
+
+In Savage's theory, an "act" is a function mapping a state of the world to a consequence.
 Savage explains that by "the world", he means "the object of interest".
 For example, in the decision problem of what to do with an egg that may or may not be rotten, the world is the egg.
 Readers concerned that this may be too narrow a conception of "the world" will find that he goes on to consider: "if the person is interested in the only brown egg in a dozen, should that egg or the whole dozen be taken as the world?"
@@ -32,7 +35,13 @@ In [Nozick's paper introducing Newcomb's problem](https://philpapers.org/rec/NOZ
 What Nozick calls a "state of the world" is in Savage's theory a (state, act) pair.
 This makes sense if you consider "the world" to include yourself.
 
-I don't think Savage even realizes that his formalism requires leaving the decider out of the world.
+What if you try to analyze Newcomb's problem without including yourself in "the world"?
+Then the states of the world are simply "money in one box" and "money in both boxes", and all that classical decision theory tells you is that the act "take both boxes" maps both states to more money than the act "take one box".
+
+Although this gives what I think is the wrong answer (two boxing), I think it's the right way to apply classical decision theory (either that, or just say Newcomb's problem is out of scope).
+That we can have two different acts, mapping the same state to two different consequences, seems to require that this "state of the world" does not specify an act, and therefore that "the world" does not contain the actor.
+
+But I don't think Savage even realizes that his formalism requires leaving the decider out of the world.
 After the dozen eggs, he does consider that the state of the world may be the "exact and entire past, present, and future history of the universe", but his objection to this is that it is "vague", and:
 
 > It may also be added that the use of modest little worlds, tailored to particular contexts, is often a simplification, the advantage of which is justified by a considerable body of mathematical experience with related ideas.
