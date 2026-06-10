@@ -71,9 +71,11 @@ Taking both boxes gets you a thousand dollars more than taking just the big box 
 But the only players that find a million in the box are those that didn't take the small box.
 Any player taking both boxes finds that their replica has done the same thing, leaving them with only a thousand.
 
-In MIRI's prisoner's dilemma tournament, the players are programs, with access to the other player's source code.
+In MIRI's prisoner's dilemma tournament, the players are programs.
 So not only do we have an explicit model of the decision problem, but we have an explicit model of the decider.
+
 In fact, our model of the decision problem is really the other player.
+And the trick is that your opponent has your source code to work with, which is how the money on the table could depend on which boxes you would take.
 A program is in Lewis's scenario when it plays against another player defined by the same program.
 
 The MIRI prisoner's dilemma tournament doesn't feel like a philosophy question, but more like a logic puzzle.
