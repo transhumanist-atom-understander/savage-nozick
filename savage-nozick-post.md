@@ -55,8 +55,8 @@ But what's fun about Newcomblike problems is you can get the decider in your lit
 For example, [MIRI's modal agent prisoner's dilemma tournament](https://arxiv.org/abs/1401.5577).
 
 To see the connection to Newcomb's problem, consider [David Lewis's retelling of the prisoner's dilemma](https://philpapers.org/rec/LEWPDI).
-There's a thousand dollars in a little box, and a million dollars in a big box unless your opponent "defects" by taking their thousand.
-If your opponent is a replica of yourself, then it's an instance of Newcomb's problem: taking both boxes gets you a thousand dollars more than taking just the big box regardless of its contents, but only those that leave the small box find a million in the big box.
+There's a thousand dollars in a small box, and a million dollars in a big box unless your opponent "defects" by taking their thousand.
+If your opponent is a replica of yourself, then it's an instance of Newcomb's problem: taking both boxes gets you a thousand dollars more than taking just the big box regardless of its contents, but only players that forego the small box find a million in the big box.
 
 In MIRI's dilemma tournament, the players are programs, with access to the other player's source code.
 So not only do we have an explicit model of the decision problem, but we have an explicit model of the decider.
