@@ -52,6 +52,16 @@ But as I said, you don't feel the Cartesian boundary in practice when working wi
 ## Explicit models for Newcomblike problems
 
 But what's fun about Newcomblike problems is you can get the decider in your little computable explicit model.
-For example, [the modal agent prisoner's dilemma tournament](https://arxiv.org/abs/1401.5577).
+For example, [MIRI's modal agent prisoner's dilemma tournament](https://arxiv.org/abs/1401.5577).
 
 To see the connection to Newcomb's problem, consider [David Lewis's retelling of the prisoner's dilemma](https://philpapers.org/rec/LEWPDI).
+There's a thousand dollars in a little box, and a million dollars in a big box unless your opponent "defects" by taking their thousand.
+If your opponent is a replica of yourself, then it's an instance of Newcomb's problem: taking both boxes gets you a thousand dollars more than taking just the big box regardless of its contents, but only those that leave the small box find a million in the big box.
+
+In MIRI's dilemma tournament, the players are programs, with access to the other player's source code.
+So not only do we have an explicit model of the decision problem, but we have an explicit model of the decider.
+In fact, the decision problem they face is the other decider, and they are in Lewis's scenario when they face themselves.
+
+The MIRI prisoner's dilemma tournament doesn't feel like a philosophy question, but more like a logic puzzle.
+The program "decides", but only in the sense that a chess playing program decides on a move.
+
