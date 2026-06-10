@@ -1,3 +1,5 @@
+# Newcomb's problem from the grand system and petty system view
+
 It's pretty easy to do quantum mechanics every day and never think about interpretations.
 For example, using quantum chemistry software.
 You input a molecule as a file with a row for each atom, with the atom's element identity and xyz coordinates.
@@ -16,6 +18,8 @@ So I'm not even including the measurement device, just indirectly inferring that
 But I'm not specifically _excluding_ the measurement device either.
 I mean, I don't even include the solvent.
 So what I feel is not a Cartesian boundary between mind and matter, but a much tighter boundary around what's explicitly modeled.
+
+## Decision theory when you're used to explicit models
 
 I think you can also use what I'll call "classical decision theory", for which my reference is Savage, and never worry about Newcomb's problem, for similar reasons.
 Savage's book, as philosophical as it is, only makes sense to me when I read it from the perspective I've developed for explicit modeling.
@@ -36,3 +40,6 @@ After the dozen eggs, he does consider that the state of the world may be the "e
 It's true that if you want to actually derive consequences from explicit models, then you're used to simplifying to the bare minimum.
 Perhaps that makes it easy to miss that including yourself in the model introduces special problems, since for the sake of simplification you don't get anywhere near including that much.
 
+## The appeal of the grand systems perspective
+
+## Explicit models for Newcomblike problems
