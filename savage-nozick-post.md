@@ -65,12 +65,21 @@ For example, [MIRI's modal agent prisoner's dilemma tournament](https://arxiv.or
 
 To see the connection to Newcomb's problem, consider [David Lewis's retelling of the prisoner's dilemma](https://philpapers.org/rec/LEWPDI).
 There's a thousand dollars in a small box, and a million dollars in a big box unless your opponent "defects" by taking their thousand.
-If your opponent is a replica of yourself, then it's an instance of Newcomb's problem: taking both boxes gets you a thousand dollars more than taking just the big box regardless of its contents, but only players that forego the small box find a million in the big box.
 
-In MIRI's dilemma tournament, the players are programs, with access to the other player's source code.
+If your opponent is a replica of yourself, then the prisoner's dilemma becomes an instance of Newcomb's problem.
+Taking both boxes gets you a thousand dollars more than taking just the big box regardless of its contents.
+But the only players that find a million in the box box are those that didn't take the small box.
+Any player taking both boxes finds that their replica has done the same thing, leaving them with only a thousand.
+
+In MIRI's prisoner's dilemma tournament, the players are programs, with access to the other player's source code.
 So not only do we have an explicit model of the decision problem, but we have an explicit model of the decider.
-In fact, the decision problem they face is the other decider, and they are in Lewis's scenario when they face themselves.
+In fact, our model of the decision problem is really the other player.
+A program is in Lewis's scenario when it plays against another player defined by the same program.
 
 The MIRI prisoner's dilemma tournament doesn't feel like a philosophy question, but more like a logic puzzle.
 The program "decides", but only in the sense that a chess playing program decides on a move.
+It's tricky, but in a way we can handle with concepts from computer science and metamathematics.
+
+If we want to use programs like these as models for situations involving ourselves, then we may run into familiar philosophical debates about whether we can think of our actions as the results of an algorithm.
+
 
