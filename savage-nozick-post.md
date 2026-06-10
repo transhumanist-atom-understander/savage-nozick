@@ -68,7 +68,7 @@ There's a thousand dollars in a small box, and a million dollars in a big box un
 
 If your opponent is a replica of yourself, then the prisoner's dilemma becomes an instance of Newcomb's problem.
 Taking both boxes gets you a thousand dollars more than taking just the big box regardless of its contents.
-But the only players that find a million in the box box are those that didn't take the small box.
+But the only players that find a million in the box are those that didn't take the small box.
 Any player taking both boxes finds that their replica has done the same thing, leaving them with only a thousand.
 
 In MIRI's prisoner's dilemma tournament, the players are programs, with access to the other player's source code.
