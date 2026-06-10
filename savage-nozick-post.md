@@ -22,13 +22,13 @@ So what I feel is not a Cartesian boundary between mind and matter, but a much t
 ## Decision theory when you're used to explicit models
 
 I think you can also use what I'll call "classical decision theory", for which my reference is Savage, and never worry about Newcomb's problem, for similar reasons.
-Savage's book, as philosophical as it is, only makes sense to me when I read it from the perspective I've developed for explicit modeling.
+[Savage's book](https://archive.org/details/foundationsofsta0000sava/page/n1/mode/1up), as philosophical as it is, only makes sense to me when I read it from the perspective I've developed for explicit modeling.
 In his theory, an "act" is a function that maps from a state of the world to a consequence.
 Savage explains that by "the world", he means "the object of interest".
 For example, in the decision problem of what to do with an egg that may or may not be rotten, the world is the egg.
 Readers concerned that this may be too narrow a conception of "the world" will find that he goes on to consider: "if the person is interested in the only brown egg in a dozen, should that egg or the whole dozen be taken as the world?"
 
-In Nozick's paper introducing Newcomb's problem, he thinks the world really means the whole world, which creates some interesting miscommunications with the classical theory.
+In [Nozick's paper introducing Newcomb's problem](https://philpapers.org/rec/NOZNPA), he thinks the world really means the whole world, which creates some interesting miscommunications with the classical theory.
 What Nozick calls a "state of the world" is in Savage's theory a (state, act) pair.
 This makes sense if you consider "the world" to include yourself.
 
@@ -42,7 +42,7 @@ Perhaps that makes it easy to miss that including yourself in the model introduc
 
 ## The appeal of the grand systems perspective
 
-In his original paper on what we now call the "many-worlds" interpretation, Everett motivated it with quantum cosmology, since there's nowhere outside the universe for a Copenhagen-style observer to stand.
+In [his original paper on what we now call the "many-worlds" interpretation](https://doi.org/10.1103/RevModPhys.29.454), Everett motivated it with quantum cosmology, since there's nowhere outside the universe for a Copenhagen-style observer to stand.
 Eliezer Yudkowsky said something similar to motivate timeless decision theory:
 
 > I hold it a virtue of any decision theory that it should be compatible with a grand-system view, rather than _intrinsically_ separating the universe into agent and outside. All else being equal, I prefer a representation which is continuous over the grand universe and marks no special boundary where the observer is located; as opposed to a representation which solidifies the Cartesian boundary between an observer-decider homunculus and the environment.
@@ -50,3 +50,8 @@ Eliezer Yudkowsky said something similar to motivate timeless decision theory:
 But as I said, you don't feel the Cartesian boundary in practice when working with explicit models, since the model boundary is so much tighter.
 
 ## Explicit models for Newcomblike problems
+
+But what's fun about Newcomblike problems is you can get the decider in your little computable explicit model.
+For example, [the modal agent prisoner's dilemma tournament](https://arxiv.org/abs/1401.5577).
+
+To see the connection to Newcomb's problem, consider [David Lewis's retelling of the prisoner's dilemma](https://philpapers.org/rec/LEWPDI).
