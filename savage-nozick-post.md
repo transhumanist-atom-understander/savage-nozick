@@ -1,25 +1,36 @@
 # Newcomb's problem from the grand-system and petty-system views
 
-## A digression: the boundary around a quantum system
+In [his original paper on what we now call the "many-worlds" interpretation](https://doi.org/10.1103/RevModPhys.29.454), Everett motivated it with quantum cosmology, since there's nowhere outside the universe for a Copenhagen-style observer to stand.
+[Eliezer Yudkowsky said something similar to motivate timeless decision theory](https://intelligence.org/files/TDT.pdf):
+
+> I hold it a virtue of any decision theory that it should be compatible with a grand-system view, rather than _intrinsically_ separating the universe into agent and outside. All else being equal, I prefer a representation which is continuous over the grand universe and marks no special boundary where the observer is located; as opposed to a representation which solidifies the Cartesian boundary between an observer-decider homunculus and the environment.
+
+I'll discuss the perspective you take when working with explicit models, and how it can be that a theory can require a Cartesian boundary but nobody seems to care or even really to notice.
+But I actually like this "petty-system" perspective, and at the end I'll talk about how Newcomb's problem forces the issue of the "observer-decider" even without a grand-system view.
+
+## The petty-system perspective in quantum mechanics
 
 It's pretty easy to do quantum mechanics every day and never think about interpretations.
 For example, using quantum chemistry software.
-You input a molecule as a file with a row for each atom, each row containing the atom's element identity and xyz coordinates.
-Just the atoms in the molecule and not the atoms in its surroundings, as if the molecule is floating in outer space, is enough for gas phase properties.
+I input a molecule as a file with a row for each atom, each row containing the atom's element identity and xyz coordinates.
+I include just the atoms in the molecule and not the atoms in its surroundings, as if the molecule is floating in outer space, which is enough for gas phase properties.
 
 You can do some impressive calculations with modern software.
-Erwin Schrödinger could calculate the hydrogen atom spectrum, but with a computer you can compute which frequencies of light will be absorbed by organic pigments used to dye clothes or as food colorings.
+Erwin Schrödinger could calculate the hydrogen atom spectrum, but with a computer you can compute which frequencies of light will be absorbed by organic pigments such as those used to dye clothes or as food colorings.
 Of course for a dye you don't want the color of a gas but of a solution in water or another solvent, but this can be approximated without explicitly including the solvent molecules by just adjusting the vacuum permittivity with the solvent's dielectric constant.
 
 So, I'm used to working with explicit atom-by-atom models, and thinking of quantum mechanics as a program that operates on such models.
 It's only when reading blog posts, not when doing quantum mechanics, that I consider the fundamental object of quantum interpretations: the joint quantum state of the molecule and the experimenter.
 
-It's more than just that I don't have an atom by atom description of the experimenter, more than just that a human body has too many atoms for the software to handle.
-Returning to the question of whether a molecule absorbs a certain frequency of light, one way to frame such calculations is to model the light as an oscillating electric field, and check if the expected energy of the molecule goes up.
-So I'm not even including the measurement device, just indirectly inferring that less light energy reaches some "off-screen" measurement.
+It's more than just that I don't have an atom by atom description of the experimenter; we could consider a measurement device instead.
+Returning to the question of whether a molecule absorbs a certain frequency of light, where is the measurement?
+One way to frame this calculation is to model the light as an oscillating electric field, and check if the expected energy of the molecule goes up.
+Then, I can indirectly infer that the light energy hitting some "off-screen" measurement device is reduced.
+So I'm not including the measurement device.
+
 But I'm not specifically _excluding_ the measurement device either.
 I mean, I don't even include the solvent.
-So what I feel is not a Cartesian boundary between mind and matter, but a much tighter boundary around what's explicitly modeled.
+So what I feel is not a Cartesian boundary between mind and matter, or between classical measuring devices and quantum systems, but a much tighter boundary around what's explicitly modeled.
 
 ## Decision theory when you're used to explicit models
 
@@ -44,21 +55,12 @@ Although this gives what I think is the wrong answer (two boxing), I think it's 
 That we can have two different acts, mapping the same state to two different consequences, seems to require that this "state of the world" does not specify an act, and therefore that "the world" does not contain the actor.
 
 But I don't think Savage even realizes that his formalism requires leaving the actor out of the world.
-After proposing the world of a dozen eggs, he does consider that the state of the world may be the "exact and entire past, present, and future history of the universe". He doesn't mention that the universe includes the actor. Instead, he says that the problem is that it is "vague", and:
+After proposing the world of a dozen eggs, he does consider that the state of the world may be the "exact and entire past, present, and future history of the universe". He doesn't mention that the universe includes the actor. Instead, his problem with the history of the unvierse is that it's "vague", and:
 
 > It may also be added that the use of modest little worlds, tailored to particular contexts, is often a simplification, the advantage of which is justified by a considerable body of mathematical experience with related ideas.
 
 It's true that if you want to actually derive consequences from explicit models, then you're used to simplifying to the bare minimum.
 Perhaps that makes it easy to miss that including yourself in the model introduces special problems, since for the sake of simplification you don't get anywhere near including that much.
-
-## The appeal of the grand systems perspective
-
-In [his original paper on what we now call the "many-worlds" interpretation](https://doi.org/10.1103/RevModPhys.29.454), Everett motivated it with quantum cosmology, since there's nowhere outside the universe for a Copenhagen-style observer to stand.
-[Eliezer Yudkowsky said something similar to motivate timeless decision theory](https://intelligence.org/files/TDT.pdf):
-
-> I hold it a virtue of any decision theory that it should be compatible with a grand-system view, rather than _intrinsically_ separating the universe into agent and outside. All else being equal, I prefer a representation which is continuous over the grand universe and marks no special boundary where the observer is located; as opposed to a representation which solidifies the Cartesian boundary between an observer-decider homunculus and the environment.
-
-But as I said, you don't feel the Cartesian boundary in practice when working with explicit models, since the model boundary is so much tighter.
 
 ## Explicit models for Newcomblike problems
 
@@ -66,6 +68,7 @@ But what's fun about Newcomblike problems is you can include the agent in your l
 For example, [MIRI's modal agent prisoner's dilemma tournament](https://arxiv.org/abs/1401.5577).
 
 To see the connection to Newcomb's problem, consider [David Lewis's retelling of the prisoner's dilemma](https://philpapers.org/rec/LEWPDI).
+Each player sees two boxes (so four boxes total, for two players; imagine two separate rooms).
 There's a thousand dollars in a small box, and a million dollars in a big box unless your opponent "defects" by taking their thousand.
 
 If your opponent is a replica of yourself, then the prisoner's dilemma becomes an instance of Newcomb's problem.
@@ -86,6 +89,6 @@ It's tricky due to the self-reference, but we can handle it with concepts from c
 
 If we want to use programs like these as models for situations involving ourselves, then we may run into familiar philosophical debates about whether we can think of our actions as the results of an algorithm.
 
-But I guess it's important to me to have the philosophically boring, uninterpreted logic puzzle available.
+But I guess it's important to me to have the philosophically boring logic puzzle available.
 It fits into a familiar scheme of scientific modeling.
 We reason about explicit models with unambiguous implications, and with experience and taste that can help us understand the real world.
