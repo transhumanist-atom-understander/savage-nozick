@@ -5,8 +5,8 @@ In [his original paper on what we now call the "many-worlds" interpretation](htt
 
 > I hold it a virtue of any decision theory that it should be compatible with a grand-system view, rather than _intrinsically_ separating the universe into agent and outside. All else being equal, I prefer a representation which is continuous over the grand universe and marks no special boundary where the observer is located; as opposed to a representation which solidifies the Cartesian boundary between an observer-decider homunculus and the environment.
 
-I'll discuss the perspective you take when working with explicit models, and how it can be that a theory can require a Cartesian boundary but nobody seems to care or even really to notice.
-But I actually like this "petty-system" perspective, and at the end I'll talk about how Newcomb's problem (or less ambiguous Newcomb-like problems) forces the issue of the "observer-decider" even without a grand-system view.
+I think I can explain how it can be that a theory can require a Cartesian boundary but nobody seems to care or even really to notice, based on my experience in the more applied side of science.
+But I actually like the "petty-system" perspective of applications, and at the end I'll talk about how Newcomb's problem (or less ambiguous Newcomb-like problems) forces the issue of the "observer-decider" even without a grand-system view.
 
 ## The petty-system perspective in quantum mechanics
 
@@ -45,7 +45,8 @@ For example, in the decision problem of what to do with an egg that may or may n
 Readers concerned that this may be too narrow a conception of "the world" will find that he goes on to consider: "if the person is interested in the only brown egg in a dozen, should that egg or the whole dozen be taken as the world?"
 
 In [Nozick's paper introducing Newcomb's problem](https://philpapers.org/rec/NOZNPA), he thinks the world really means the whole world, which creates some interesting miscommunications with the classical theory.
-What Nozick calls a "state of the world" is in Savage's theory a (state, act) pair.
+Nozick mostly uses the term "state of the world" the way Savage does, drawing little 2x2 tables of (state, act) pairs, and referring to the columns of these tables as states.
+But at a critical moment (his definition of dominance), he instead refers to the columns as partitions of states, as if the state of the world is the (state, act) pair.
 This makes sense if you consider "the world" to include yourself.
 
 What if you try to analyze Newcomb's problem without including yourself in "the world"?
