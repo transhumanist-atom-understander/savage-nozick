@@ -86,4 +86,6 @@ It's tricky to derive what the agent will do when the consequences of its action
 
 If we want to use programs like these as models for situations involving ourselves, then we may run into familiar philosophical debates about whether we can think of our actions as the results of an algorithm.
 
-
+But I guess it's important to me to have the philosophically boring, uninterpreted logic puzzle available.
+It fits into a familiar scheme of scientific modeling.
+We work with explicit models, and then with experience and taste that can help us understand the real world.
