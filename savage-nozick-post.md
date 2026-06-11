@@ -23,7 +23,7 @@ So, I'm used to working with explicit atom-by-atom models, and thinking of quant
 It's only when reading blog posts, not when doing quantum mechanics, that I consider the fundamental object of quantum interpretations: the joint quantum state of the molecule and the experimenter.
 
 It's more than just that I don't have an atom by atom description of the experimenter; we could consider a measurement device instead.
-Returning to the question of whether a molecule absorbs a certain frequency of light, where is the measurement?
+Returning to the calculation of whether a molecule absorbs a certain frequency of light, where is the measurement?
 One way to frame this calculation is to model the light as an oscillating electric field, and check if the expected energy of the molecule goes up.
 Then, I can indirectly infer that the light energy hitting some "off-screen" measurement device is reduced.
 So I'm not including the measurement device.
@@ -45,15 +45,16 @@ For example, in the decision problem of what to do with an egg that may or may n
 Readers concerned that this may be too narrow a conception of "the world" will find that he goes on to consider: "if the person is interested in the only brown egg in a dozen, should that egg or the whole dozen be taken as the world?"
 
 In [Nozick's paper introducing Newcomb's problem](https://philpapers.org/rec/NOZNPA), he thinks the world really means the whole world, which creates some interesting miscommunications with the classical theory.
-Nozick mostly uses the term "state of the world" the way Savage does, drawing little 2x2 tables of (state, act) pairs, and referring to the columns of these tables as states.
-But at a critical moment (his definition of dominance), he instead refers to the columns as partitions of states, as if the state of the world is the (state, act) pair.
+Nozick mostly uses the term "state of the world" the way Savage does, drawing little 2x2 tables of (act, state) pairs, with a column for each state.
+But at a critical moment (his definition of dominance), he instead refers to the columns as partitions of states, as if the state of the world is Savage's (act, state) pair.
 This makes sense if you consider "the world" to include yourself.
 
 What if you try to analyze Newcomb's problem without including yourself in "the world"?
-Then the states of the world are simply "money in one box" and "money in both boxes", and all that classical decision theory tells you is that the act "take both boxes" maps both states to more money than the act "take one box".
+Then the states of the world are simply "money in one box" and "money in both boxes", and all that classical decision theory tells you is that the act "take both boxes" maps each state to more money than the act "take one box".
 
 Although this gives what I think is the wrong answer (two boxing), I think it's the right way to apply classical decision theory (either that, or just say Newcomb's problem is out of scope).
-That we can have two different acts, mapping the same state to two different consequences, seems to require that this "state of the world" does not specify an act, and therefore that "the world" does not contain the actor.
+Although it sounds innocent at first, Savage's definition of an act presumes that two different acts can map the same state to two different consequences.
+This seems to require that this "state of the world" does not specify an act, and therefore that "the world" does not contain the actor.
 
 But I don't think Savage even realizes that his formalism requires leaving the actor out of the world.
 After proposing the world of a dozen eggs, he does consider that the state of the world may be the "exact and entire past, present, and future history of the universe". He doesn't mention that the universe includes the actor. Instead, his problem with the history of the universe is that it's "vague", and:
@@ -73,7 +74,7 @@ Each player sees two boxes (so four boxes total, for two players; imagine two se
 There's a thousand dollars in a small box, and a million dollars in a big box unless your opponent "defects" by taking their thousand.
 
 If your opponent is a replica of yourself, then the prisoner's dilemma becomes an instance of Newcomb's problem.
-Taking both boxes gets you a thousand dollars more than taking just the big box regardless of its contents.
+Taking both boxes gets you a thousand dollars more than taking just the big box, regardless of its contents.
 But the only players that find a million in the big box are those that didn't take the small box.
 Any player taking both boxes finds that their replica has done the same thing, leaving them with only a thousand.
 
