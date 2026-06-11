@@ -57,7 +57,7 @@ Although it sounds innocent at first, Savage's definition of an act presumes tha
 This seems to require that this "state of the world" does not specify an act, and therefore that "the world" does not contain the actor.
 
 But I don't think Savage even realizes that his formalism requires leaving the actor out of the world.
-After proposing the world of a dozen eggs, he does consider that the state of the world may be the "exact and entire past, present, and future history of the universe". He doesn't mention that the universe includes the actor. Instead, his problem with the history of the universe is that it's "vague", and:
+After proposing the world of a dozen eggs, he does consider that the state of the world may be the "exact and entire past, present, and future history of the universe". He doesn't mention that the universe includes the actor, and its future history includes the act. Instead, his problem with this is that it's "vague", and:
 
 > It may also be added that the use of modest little worlds, tailored to particular contexts, is often a simplification, the advantage of which is justified by a considerable body of mathematical experience with related ideas.
 
