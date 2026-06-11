@@ -1,12 +1,14 @@
 # Newcomb's problem from the grand-system and petty-system views
 
+## A digression: the boundary around a quantum system
+
 It's pretty easy to do quantum mechanics every day and never think about interpretations.
 For example, using quantum chemistry software.
-You input a molecule as a file with a row for each atom, with the atom's element identity and xyz coordinates.
-Just the atoms in the molecule, which represents a molecule floating in empty space, which is fine for gas phase properties.
+You input a molecule as a file with a row for each atom, each row containing the atom's element identity and xyz coordinates.
+Just the atoms in the molecule and not the atoms in its surroundings, as if the molecule is floating in outer space, is enough for gas phase properties.
 
 You can do some impressive calculations with modern software.
-Erwin Schrödinger could calculate the hydrogen atom spectrum, but with a computer you can compute which frequencies of light will be absorbed by, for example, organic pigments used to dye clothes or as food colorings.
+Erwin Schrödinger could calculate the hydrogen atom spectrum, but with a computer you can compute which frequencies of light will be absorbed by organic pigments used to dye clothes or as food colorings.
 Of course for a dye you don't want the color of a gas but of a solution in water or another solvent, but this can be approximated without explicitly including the solvent molecules by just adjusting the vacuum permittivity with the solvent's dielectric constant.
 
 So, I'm used to working with explicit atom-by-atom models, and thinking of quantum mechanics as a program that operates on such models.
@@ -21,7 +23,7 @@ So what I feel is not a Cartesian boundary between mind and matter, but a much t
 
 ## Decision theory when you're used to explicit models
 
-I think you could use classical decision theory every day and never wonder about the critical issue in Newcomb's problem: the dependence of the state of the world on the person deciding.
+Similarly, I think you could use classical decision theory every day and never wonder about the critical issue in Newcomb's problem: the dependence of the state of the world on the person deciding.
 
 My reference for what I'm calling "classical decision theory" is [Savage's book](https://archive.org/details/foundationsofsta0000sava/page/n1/mode/1up).
 And as philosophical as that book is, it only makes sense to me when I read it from the perspective I've developed for explicit modeling.
@@ -41,8 +43,8 @@ Then the states of the world are simply "money in one box" and "money in both bo
 Although this gives what I think is the wrong answer (two boxing), I think it's the right way to apply classical decision theory (either that, or just say Newcomb's problem is out of scope).
 That we can have two different acts, mapping the same state to two different consequences, seems to require that this "state of the world" does not specify an act, and therefore that "the world" does not contain the actor.
 
-But I don't think Savage even realizes that his formalism requires leaving the decider out of the world.
-After the dozen eggs, he does consider that the state of the world may be the "exact and entire past, present, and future history of the universe", but his objection to this is that it is "vague", and:
+But I don't think Savage even realizes that his formalism requires leaving the actor out of the world.
+After considering a world of a dozen eggs, he does consider that the state of the world may be the "exact and entire past, present, and future history of the universe", but his objection to this is that it is "vague", and:
 
 > It may also be added that the use of modest little worlds, tailored to particular contexts, is often a simplification, the advantage of which is justified by a considerable body of mathematical experience with related ideas.
 
@@ -60,7 +62,7 @@ But as I said, you don't feel the Cartesian boundary in practice when working wi
 
 ## Explicit models for Newcomblike problems
 
-But what's fun about Newcomblike problems is you can get the decider in your little computable explicit model.
+But what's fun about Newcomblike problems is you can include the agent in your little explicit model.
 For example, [MIRI's modal agent prisoner's dilemma tournament](https://arxiv.org/abs/1401.5577).
 
 To see the connection to Newcomb's problem, consider [David Lewis's retelling of the prisoner's dilemma](https://philpapers.org/rec/LEWPDI).
@@ -68,19 +70,19 @@ There's a thousand dollars in a small box, and a million dollars in a big box un
 
 If your opponent is a replica of yourself, then the prisoner's dilemma becomes an instance of Newcomb's problem.
 Taking both boxes gets you a thousand dollars more than taking just the big box regardless of its contents.
-But the only players that find a million in the box are those that didn't take the small box.
+But the only players that find a million in the big box are those that didn't take the small box.
 Any player taking both boxes finds that their replica has done the same thing, leaving them with only a thousand.
 
 In MIRI's prisoner's dilemma tournament, the players are programs.
-So not only do we have an explicit model of the decision problem, but we have an explicit model of the decider.
+So not only do we have an explicit model of the decision problem, but we have an explicit model of the agent.
 
-In fact, our model of the decision problem is really the other player.
+In fact, our model of the decision problem is really a model of another agent, the opponent.
 And the trick is that your opponent has your source code to work with, which is how the money on the table could depend on which boxes you would take.
 A program is in Lewis's scenario when it plays against another player defined by the same program.
 
 The MIRI prisoner's dilemma tournament doesn't feel like a philosophy question, but more like a logic puzzle.
 The program "decides", but only in the sense that a chess playing program decides on a move.
-It's tricky, but in a way we can handle with concepts from computer science and metamathematics.
+It's tricky to derive what the agent will do when the consequences of its actions potentially depend on another instance of the agent itself, but tricky in a way we can handle with concepts from computer science and metamathematics.
 
 If we want to use programs like these as models for situations involving ourselves, then we may run into familiar philosophical debates about whether we can think of our actions as the results of an algorithm.
 
