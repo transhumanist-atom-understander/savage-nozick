@@ -78,6 +78,7 @@ But the only players that find a million in the big box are those that didn't ta
 Any player taking both boxes finds that their replica has done the same thing, leaving them with only a thousand.
 
 In MIRI's prisoner's dilemma tournament, the players are programs.
+Not as in "consider a program", but [actual code on Github](https://github.com/machine-intelligence/provability).
 So not only do we have an explicit model of the decision problem, but we have an explicit model of the agent.
 
 In fact, our model of the decision problem is really a model of another agent, the opponent.
