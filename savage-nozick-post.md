@@ -6,7 +6,7 @@ In [his original paper on what we now call the "many-worlds" interpretation](htt
 > I hold it a virtue of any decision theory that it should be compatible with a grand-system view, rather than _intrinsically_ separating the universe into agent and outside. All else being equal, I prefer a representation which is continuous over the grand universe and marks no special boundary where the observer is located; as opposed to a representation which solidifies the Cartesian boundary between an observer-decider homunculus and the environment.
 
 I'll discuss the perspective you take when working with explicit models, and how it can be that a theory can require a Cartesian boundary but nobody seems to care or even really to notice.
-But I actually like this "petty-system" perspective, and at the end I'll talk about how Newcomb's problem forces the issue of the "observer-decider" even without a grand-system view.
+But I actually like this "petty-system" perspective, and at the end I'll talk about how Newcomb's problem (or better-defined Newcomb-like problems) forces the issue of the "observer-decider" even without a grand-system view.
 
 ## The petty-system perspective in quantum mechanics
 
