@@ -82,7 +82,7 @@ A program is in Lewis's scenario when it plays against another player defined by
 
 The MIRI prisoner's dilemma tournament doesn't feel like a philosophy question, but more like a logic puzzle.
 The program "decides", but only in the sense that a chess playing program decides on a move.
-It's tricky to derive what the agent will do when the consequences of its actions potentially depend on another instance of the agent itself, but tricky in a way we can handle with concepts from computer science and metamathematics.
+It's tricky due to the self-reference, but we can handle it with concepts from computer science and metamathematics.
 
 If we want to use programs like these as models for situations involving ourselves, then we may run into familiar philosophical debates about whether we can think of our actions as the results of an algorithm.
 
