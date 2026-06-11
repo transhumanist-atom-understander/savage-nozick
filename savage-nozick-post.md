@@ -44,7 +44,7 @@ Although this gives what I think is the wrong answer (two boxing), I think it's 
 That we can have two different acts, mapping the same state to two different consequences, seems to require that this "state of the world" does not specify an act, and therefore that "the world" does not contain the actor.
 
 But I don't think Savage even realizes that his formalism requires leaving the actor out of the world.
-After proposing the world of a dozen eggs, he does consider that the state of the world may be the "exact and entire past, present, and future history of the universe", but his objection to this is that it is "vague", and:
+After proposing the world of a dozen eggs, he does consider that the state of the world may be the "exact and entire past, present, and future history of the universe". He doesn't mention that the universe includes the actor. Instead, he says that the problem is that it is "vague", and:
 
 > It may also be added that the use of modest little worlds, tailored to particular contexts, is often a simplification, the advantage of which is justified by a considerable body of mathematical experience with related ideas.
 
