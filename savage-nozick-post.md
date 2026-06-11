@@ -88,4 +88,4 @@ If we want to use programs like these as models for situations involving ourselv
 
 But I guess it's important to me to have the philosophically boring, uninterpreted logic puzzle available.
 It fits into a familiar scheme of scientific modeling.
-We work with explicit models, and then with experience and taste that can help us understand the real world.
+We reason through explicit models with unambiguous implications, and with experience and taste that can help us understand the real world.
