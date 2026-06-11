@@ -77,7 +77,7 @@ In MIRI's prisoner's dilemma tournament, the players are programs.
 So not only do we have an explicit model of the decision problem, but we have an explicit model of the agent.
 
 In fact, our model of the decision problem is really a model of another agent, the opponent.
-And the trick is that your opponent has your source code to work with, which is how the money on the table could depend on which boxes you would take.
+And the trick is that your opponent has your source code to work with, which is how the money on the table can depend on which boxes you would take.
 A program is in Lewis's scenario when it plays against another player defined by the same program.
 
 The MIRI prisoner's dilemma tournament doesn't feel like a philosophy question, but more like a logic puzzle.
