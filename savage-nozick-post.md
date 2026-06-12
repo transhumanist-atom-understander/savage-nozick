@@ -22,7 +22,8 @@ Of course for a dye you don't want the color of a gas but of a solution in water
 So, I'm used to working with explicit atom-by-atom models, and thinking of quantum mechanics as a program that operates on such models.
 It's only when reading blog posts, not when doing quantum mechanics, that I consider the fundamental object of quantum interpretations: the joint quantum state of the molecule and the experimenter.
 
-It's more than just that I don't have an atom by atom description of the experimenter; we could consider a measurement device instead.
+It's more than just that I don't have an atom by atom description of the experimenter.
+Let's consider a measurement device instead.
 Returning to the calculation of whether a molecule absorbs a certain frequency of light, where is the measurement?
 One way to frame this calculation is to model the light as an oscillating electric field, and check if the expected energy of the molecule goes up.
 Then, I can indirectly infer that the light energy hitting some "off-screen" measurement device is reduced.
